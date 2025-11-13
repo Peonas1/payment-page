@@ -1,0 +1,39 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+  
+background: radial-gradient(circle farthest-corner ,black ,rgb(46, 41, 41));
+font-family: 'Courier New', Courier, monospace; 
+
+}
+
+.header {
+     color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    background: linear-gradient(to right,rgb(88, 85, 85),rgb(147, 155, 147) );
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.1rem;
+    text-shadow: 0.3rem 0.3rem 0.2rem rgba(0, 0, 0, 0.425);
+}
+
+div a{
+    text-decoration: none;
+    color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem 1rem 1rem;
+    font-size: 1rem}
+
+
+.blank{
+    padding: 1rem;
+}
+
+.home {
+    background-color: rgba(110, 91, 91, 0.479);
+}

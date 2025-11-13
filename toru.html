@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Modern</title>
+  <style>
+    /* Reset dan dasar */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0e0e0e;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Navbar utama */
+    .navbar {
+      background: linear-gradient(90deg, #1e1e1e, #2c2c2c);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    /* Logo atau nama perusahaan */
+    .logo {
+      font-size: 22px;
+      font-weight: 700;
+      color: #00bcd4;
+      letter-spacing: 1px;
+    }
+
+    /* Menu navigasi */
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      margin-left: 25px;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #00bcd4;
+      text-shadow: 0 0 8px #00bcd4;
+    }
+
+    /* Konten utama */
+    .content {
+      text-align: center;
+      margin-top: 80px;
+    }
+
+    .content h1 {
+      font-size: 3em;
+      color: #00bcd4;
+      margin-bottom: 10px;
+    }
+
+    .content p {
+      color: #ccc;
+      font-size: 1.1em;
+    }
+
+    /* Tambah animasi ringan */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .navbar, .content {
+      animation: fadeIn 0.6s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">MyCompany</div>
+    <div class="nav-links">
+      <a href="#">Beranda</a>
+      <a href="#">Tentang</a>
+      <a href="#">Layanan</a>
+      <a href="#">Kontak</a>
+    </div>
+  </div>
+
+  <!-- Isi halaman -->
+  <div class="content">
+    <h1>Selamat Datang di MyCompany</h1>
+    <p>Kami menghadirkan solusi digital modern untuk bisnis Anda.</p>
+  </div>
+
+</body>
+</html>
